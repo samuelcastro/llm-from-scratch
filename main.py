@@ -58,6 +58,9 @@ print('Encoded text:', ids)
 
 print('Decoded text:', tokenizer.decode(ids))
 
+text = "Hello, do you like tea?"
+print(tokenizer.encode(text))
+
 # def main():
 #     print("Hello from setup-python-with-uv!")
 
